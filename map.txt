@@ -1,3 +1,1 @@
-2. setting up environment on local machine for js
-3. setting up git / github workflow
-4. variables (const, var,let)
+sources to study js -> mdn 
