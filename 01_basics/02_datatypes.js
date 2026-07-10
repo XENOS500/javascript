@@ -13,4 +13,11 @@
 
 
 //object
-console.log(typeof undefined)
+// console.log(typeof undefined)
+
+const id = Symbol('18')
+const anotherid = Symbol('18')
+console.log(id==anotherid); //false ,which is main use of Symbol
+console.log(id);
+console.log(anotherid);
+
