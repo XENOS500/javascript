@@ -21,10 +21,33 @@
 // let bool = Boolean(score)
 // console.log(bool);
 
-let num=1
-console.log(num)
-let numb =Boolean(num)
-console.log(numb);
+// let num=1
+// console.log(num)
+// let numb =Boolean(num)
+// console.log(numb);
 
 
+
+
+//*********Operations************* */
+
+let value =3
+let negvalue =-value
+// console.log(negvalue);
+
+// console.log(1+ '2');
+// console.log('1'+2);
+// console.log('1'+2+2);
+// console.log(1+2+'2');
+// console.log(1+'2'+2);
+
+
+// let x=3
+// y =x++
+// console.log(`x:${x} and y:${y}`);
+
+
+// let x=3
+// y =++x
+// console.log(`x:${x} and y:${y}`);
 
