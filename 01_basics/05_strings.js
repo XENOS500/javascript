@@ -21,5 +21,12 @@ const gameName = new String(" Free Fire  ")
 
 // const another_string =gameName.slice(0,-4) //diff is here we can give neg indices
 
-const newstr =gameName.trim()  //removes the whitespace from start and end
-console.log(newstr);
+// 
+
+let Name = "Ayush Pareek "
+console.log(Name.replace(' ','-')); 
+//replace ( what to replace , to be replaced with what)
+
+console.log(Name.includes('-')); 
+//checks if it is present
+
