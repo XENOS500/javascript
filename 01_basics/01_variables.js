@@ -1,3 +1,12 @@
+//const -> blockscoped , needs initialization after declaration ,
+// because they forbid any kind of assignment after declaration
+
+//let -> local variable,block-scoped
+// let is preferred over var -> 
+
+// var -> not local variable 
+
+
 const accountId =144553
 let accountEmail ="pareekayush500@gmail.com"
 var accountPassword ="12345"
@@ -13,9 +22,3 @@ console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity,accountstate])
 
 
-//in js consants are declared using const keyword
-// let is preferred over var
-/* 
-prefer not to use var 
-because of issue in blockscope and functional scope
-*/
