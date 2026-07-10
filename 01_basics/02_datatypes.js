@@ -6,7 +6,7 @@
 
 //number 2 to the power 53
 //bigint
-//string =""
+//string ="" in js strings can be declared using single and double quotes
 //boolean => true/false
 //null => standalone value
 //undefined => value not assigned yet
@@ -15,9 +15,21 @@
 //object
 // console.log(typeof undefined)
 
-const id = Symbol('18')
-const anotherid = Symbol('18')
-console.log(id==anotherid); //false ,which is main use of Symbol
-console.log(id);
-console.log(anotherid);
+// const id = Symbol('18')
+// const anotherid = Symbol('18')
+// console.log(id==anotherid); //false ,which is main use of Symbol
+// console.log(id);
+// console.log(anotherid);
 
+//objects 
+//written in curly braces as key-value pairs
+let myobj ={
+    name:"Ayush",
+    age :19
+}
+
+const myfunction =function(){
+    console.log("Hello World");
+    
+}
+myfunction()
